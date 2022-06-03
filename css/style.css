@@ -29,7 +29,7 @@ html, body {
   min-width: 320px;
   position: relative;
   width: 100%;
-  color: #000;
+  color: #131313;
 }
 
 body {
@@ -73,6 +73,7 @@ button::-moz-focus-inner {
 
 a, a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
@@ -121,5 +122,48 @@ h1, h2, h3, h4, h5, h6 {
     max-width: none;
     padding: 0 10px;
   }
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__inner .header__right .header__menu {
+  margin-right: 70px;
+}
+
+.header__inner .header__right .header__menu .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__inner .header__right .header__menu .menu__list .menu__item {
+  padding-left: 10px;
+}
+
+.header__inner .header__right .header__menu .menu__list .menu__item {
+  padding-left: 10px;
+}
+
+.header__inner .header__right .header__menu .menu__list .menu__item .menu__link {
+  text-transform: uppercase;
+  padding: 43px 20px;
+}
+
+.header__inner .header__right .header__menu .menu__list .menu__item .menu__link:hover {
+  background-color: #131313;
+  color: #ffffff;
+  height: inherit;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 /*# sourceMappingURL=style.css.map */

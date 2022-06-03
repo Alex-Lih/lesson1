@@ -37,7 +37,7 @@ $md4: 479.98;
 :focus, :active {outline: none;}
 a:focus, a:active {outline: none;}
 aside, nav, footer, header, section {display: block;}
-html, body {height: 100%; margin: 0; padding: 0; min-width: $minwidth; position: relative; width: 100%; color: #000;}
+html, body {height: 100%; margin: 0; padding: 0; min-width: $minwidth; position: relative; width: 100%; color: #131313;}
 body {font-size: 100%; line-height: 1; font-size: 14px; font-family: $fontfamily;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
     &.lock{overflow: hidden;
         @media (max-width:$md3+px) {
@@ -51,7 +51,7 @@ input, button, textarea {font-family: $fontfamily;}
 input::-ms-clear {display: none;}
 button {cursor: pointer;}
 button::-moz-focus-inner {padding: 0; border: 0;}
-a, a:visited {text-decoration: none;}
+a, a:visited {text-decoration: none; color: inherit}
 a:hover {text-decoration: none;}
 ul li{list-style: none;}
 img {vertical-align: top;}
@@ -85,7 +85,35 @@ $red: #FF4040;
 
 // Основной блок
 
-
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__right {
+        .header__menu {
+            margin-right: 70px;
+            .menu__list {
+                display: flex;
+                .menu__item {
+                    padding-left: 10px;
+                }
+                .menu__item {
+                    padding-left: 10px;
+                    .menu__link {
+                        text-transform: uppercase;
+                        padding: 43px 20px;
+                    }
+                    .menu__link:hover {
+                        background-color: $black;
+                        color: $white;
+                        height: inherit;
+                        transition: all .3s;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
