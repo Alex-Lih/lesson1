@@ -163,8 +163,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #131313;
   color: #ffffff;
   height: inherit;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .bike {
@@ -222,9 +222,43 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
 }
 
+.bike .bike__inner .bike__column-text .bike__link .link-container:hover {
+  background-color: #FF4040;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
 .bike .bike__inner .bike__column-slider {
   -ms-flex-preferred-size: 630px;
       flex-basis: 630px;
   margin-left: 30px;
+  max-width: 630px;
+}
+
+.bike .bike__inner .bike__column-slider .slick-dots {
+  position: absolute;
+  top: 52px;
+  right: 0;
+}
+
+.bike .bike__inner .bike__column-slider .slick-dots li {
+  margin-bottom: 10px;
+}
+
+.bike .bike__inner .bike__column-slider .slick-dots li button {
+  font-size: 0;
+  background-color: #131313;
+  width: 2px;
+  height: 25px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.bike .bike__inner .bike__column-slider .slick-dots li button:hover {
+  background-color: #FF4040;
+}
+
+.bike .bike__inner .bike__column-slider .slick-dots .slick-active button {
+  background-color: #FF4040;
 }
 /*# sourceMappingURL=style.css.map */
