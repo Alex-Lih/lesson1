@@ -115,6 +115,58 @@ $red: #FF4040;
     }
 }
 
+.bike {
+    padding: 100px 0 150px 0;
+    .bike__inner {
+        display: flex;
+        justify-content: space-between;
+        .bike__column-text {
+            .bike__title {
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 77px;
+                margin: 72px 0 5px 0;
+            }
+            .bike__subtitle {
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 39px;
+                margin-bottom: 60px;
+                color: $grey;
+            }
+            .bike__text {
+                max-width: 420px;
+                margin-bottom: 20px;
+            }
+            .bike__link {
+                .link-container {
+                    margin-top: 80px;
+                    max-width: 420px;
+                    padding: 40px 0;
+                    background-color: $black;
+                    .link-container__center {
+                        display: table;
+                        margin: 0 auto;
+                        .bike__link-text {
+                            color: $white;
+                            font-size: 20px;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            letter-spacing: 1.1em;
+                            margin-right: -1.1em;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+        .bike__column-slider {
+            flex-basis: 630px;
+            margin-left: 30px;
+        }
+    }
+}
+
 
 
 // Подключение файлов UI стилей, форм и готовых классов
