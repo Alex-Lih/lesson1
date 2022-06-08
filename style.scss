@@ -191,6 +191,24 @@ $red: #FF4040;
                     }
                 }
             }
+            .bike__list {
+                display: grid;
+                grid-template-columns: 1fr 1fr 170px 1fr;
+                margin-top: 25px;
+                .bike__list-item {
+                    text-align: center;
+                    display: grid;
+                    .bike__item-title {
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                    .bike__item-text {
+                        font-size: 12px;
+                        margin-top: 5px;
+                        line-height: 15px;
+                    }
+                }
+            }
         }
     }
 }

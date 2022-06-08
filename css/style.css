@@ -261,4 +261,29 @@ h1, h2, h3, h4, h5, h6 {
 .bike .bike__inner .bike__column-slider .slick-dots .slick-active button {
   background-color: #FF4040;
 }
+
+.bike .bike__inner .bike__column-slider .bike__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 170px 1fr;
+      grid-template-columns: 1fr 1fr 170px 1fr;
+  margin-top: 25px;
+}
+
+.bike .bike__inner .bike__column-slider .bike__list .bike__list-item {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.bike .bike__inner .bike__column-slider .bike__list .bike__list-item .bike__item-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bike .bike__inner .bike__column-slider .bike__list .bike__list-item .bike__item-text {
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 15px;
+}
 /*# sourceMappingURL=style.css.map */
