@@ -213,6 +213,35 @@ $red: #FF4040;
     }
 }
 
+.info {
+    padding-bottom: 150px;
+    .info__inner {
+        display: inline-flex;
+        .info__img {
+            flex-basis: 570px;
+        }
+        .info__list {
+            margin-left: 60px;
+            .info__item {
+                padding-bottom: 50px;
+                .info__title {
+                    font-size: 16px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                .info__text {
+                    max-width: 450px;
+                    margin-top: 12px;
+                    line-height: 17px;
+                }
+            }
+            .info__item:last-of-type {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
 
 
 // Подключение файлов UI стилей, форм и готовых классов

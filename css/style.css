@@ -286,4 +286,43 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 5px;
   line-height: 15px;
 }
+
+.info {
+  padding-bottom: 150px;
+}
+
+.info .info__inner {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.info .info__inner .info__img {
+  -ms-flex-preferred-size: 570px;
+      flex-basis: 570px;
+}
+
+.info .info__inner .info__list {
+  margin-left: 60px;
+}
+
+.info .info__inner .info__list .info__item {
+  padding-bottom: 50px;
+}
+
+.info .info__inner .info__list .info__item .info__title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.info .info__inner .info__list .info__item .info__text {
+  max-width: 450px;
+  margin-top: 12px;
+  line-height: 17px;
+}
+
+.info .info__inner .info__list .info__item:last-of-type {
+  padding-bottom: 0;
+}
 /*# sourceMappingURL=style.css.map */
