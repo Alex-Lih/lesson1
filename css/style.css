@@ -325,4 +325,66 @@ h1, h2, h3, h4, h5, h6 {
 .info .info__inner .info__list .info__item:last-of-type {
   padding-bottom: 0;
 }
+
+.characteristics {
+  padding-bottom: 150px;
+}
+
+.characteristics .characteristics__title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.characteristics .characteristics__inner {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.characteristics .characteristics__inner .characteristics__items {
+  -ms-flex-preferred-size: 570px;
+      flex-basis: 570px;
+  margin-right: 60px;
+  line-height: 17px;
+}
+
+.characteristics .characteristics__inner .characteristics__items .characteristics__list {
+  margin-bottom: 30px;
+}
+
+.characteristics .characteristics__inner .characteristics__items .characteristics__list .characteristics__list-title {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #131313;
+  text-transform: uppercase;
+  padding: 3px 0 3px 0;
+  margin-bottom: 10px;
+}
+
+.characteristics .characteristics__inner .characteristics__items .characteristics__list .characteristics__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+}
+
+.characteristics .characteristics__inner .characteristics__items .characteristics__list .characteristics__line .characteristics__name {
+  padding-right: 10px;
+  -ms-flex-preferred-size: 285px;
+      flex-basis: 285px;
+}
+
+.characteristics .characteristics__inner .characteristics__items .characteristics__list .characteristics__line .characteristics__descr {
+  -ms-flex-preferred-size: 285px;
+      flex-basis: 285px;
+}
+
+.characteristics .characteristics__inner .characteristics__items .characteristics__list:last-of-type {
+  margin-bottom: 0;
+}
 /*# sourceMappingURL=style.css.map */

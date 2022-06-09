@@ -242,6 +242,51 @@ $red: #FF4040;
     }
 }
 
+.characteristics {
+    padding-bottom: 150px;
+    .characteristics__title {
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;                
+    }
+    .characteristics__inner {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        .characteristics__items {
+            flex-basis: 570px;
+            margin-right: 60px;
+            line-height: 17px;
+            .characteristics__list {
+                margin-bottom: 30px;
+                .characteristics__list-title {
+                    font-weight: 700;
+                    color: $white;
+                    background-color: $black;
+                    text-transform: uppercase;
+                    padding: 3px 0 3px 0;
+                    margin-bottom: 10px;
+                }
+                .characteristics__line {
+                    display: flex;
+                    margin-top: 5px;
+                    .characteristics__name {
+                        padding-right: 10px;
+                        flex-basis: 285px;
+                    }
+                    .characteristics__descr {
+                        flex-basis: 285px;
+                    }
+                }
+            }
+            .characteristics__list:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+
 
 
 // Подключение файлов UI стилей, форм и готовых классов
