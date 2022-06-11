@@ -318,7 +318,44 @@ $red: #FF4040;
     }
 }
 
-
+.footer {
+    font-size: 12px;
+    line-height: 15px;
+    background-color: $black;
+    color: $white;
+    .footer__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        .footer__link {
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+        }
+        .footer__social {
+            .footer__social-link + .footer__social-link {
+                margin-left: 26px;
+            }
+            a {
+                font-size: 0;
+            }
+        }
+        .footer__contacts {
+            display: flex;
+            flex-direction: column;
+            .footer__contacts-link {
+                display: flex;
+                align-items: center;
+                span {
+                    margin-left: 10px;
+                }
+            }
+            .footer__contacts-link + .footer__contacts-link {
+                margin-top: 10px;
+            }
+        }
+    }
+}
 
 
 // Подключение файлов UI стилей, форм и готовых классов

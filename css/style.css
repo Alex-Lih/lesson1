@@ -422,4 +422,64 @@ h1, h2, h3, h4, h5, h6 {
 .slider .slider__items .slick-dots .slick-active button {
   background-color: #FF4040;
 }
+
+.footer {
+  font-size: 12px;
+  line-height: 15px;
+  background-color: #131313;
+  color: #ffffff;
+}
+
+.footer .footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+.footer .footer__inner .footer__link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.footer .footer__inner .footer__social .footer__social-link + .footer__social-link {
+  margin-left: 26px;
+}
+
+.footer .footer__inner .footer__social a {
+  font-size: 0;
+}
+
+.footer .footer__inner .footer__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .footer__inner .footer__contacts .footer__contacts-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__inner .footer__contacts .footer__contacts-link span {
+  margin-left: 10px;
+}
+
+.footer .footer__inner .footer__contacts .footer__contacts-link + .footer__contacts-link {
+  margin-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
