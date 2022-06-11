@@ -387,4 +387,39 @@ h1, h2, h3, h4, h5, h6 {
 .characteristics .characteristics__inner .characteristics__items .characteristics__list:last-of-type {
   margin-bottom: 0;
 }
+
+.slider {
+  margin-bottom: 50px;
+}
+
+.slider .slider__items .slider__item {
+  padding-left: 50px;
+}
+
+.slider .slider__items .slick-dots {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slider .slider__items .slick-dots li {
+  margin-bottom: 10px;
+}
+
+.slider .slider__items .slick-dots li button {
+  font-size: 0;
+  background-color: #131313;
+  width: 2px;
+  height: 25px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.slider .slider__items .slick-dots li button:hover {
+  background-color: #FF4040;
+}
+
+.slider .slider__items .slick-dots .slick-active button {
+  background-color: #FF4040;
+}
 /*# sourceMappingURL=style.css.map */

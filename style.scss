@@ -286,6 +286,38 @@ $red: #FF4040;
     }
 }
 
+.slider {
+    margin-bottom: 50px;
+    .slider__items {
+        .slider__item {
+            padding-left: 50px;
+        }
+        .slick-dots {
+            position: absolute;
+            top: 0;
+            left: 0;
+            li {
+                margin-bottom: 10px;
+                button {
+                    font-size: 0;
+                    background-color: $black;
+                    width: 2px;
+                    height: 25px;
+                    transition: all .2s;
+                }
+                button:hover {
+                    background-color: $red;
+                }
+            }
+            .slick-active {
+                button {
+                    background-color: $red;
+                }
+            }
+        }
+    }
+}
+
 
 
 
